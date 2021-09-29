@@ -36,6 +36,7 @@ fabric.properties
 
 
 logs/
+Data/
 
 # maven
 target/
