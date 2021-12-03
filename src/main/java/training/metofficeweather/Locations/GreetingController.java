@@ -1,4 +1,4 @@
-package training.metofficeweather;
+package training.metofficeweather.Locations;
 
 
 import org.springframework.stereotype.Controller;
