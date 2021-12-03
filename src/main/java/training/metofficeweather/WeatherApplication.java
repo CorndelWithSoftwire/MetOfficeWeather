@@ -26,7 +26,7 @@ public class WeatherApplication {
 
 	public static void main(String[] args)
 	{
-		// SpringApplication.run(WeatherApplication.class, args);
+		SpringApplication.run(WeatherApplication.class, args);
 
 		Client client = ClientBuilder.newClient();
 		String name = client.target("http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/sitelist?key=7fa09da3-6462-45ee-a7da-445fbc9aa1b1")
@@ -52,6 +52,8 @@ public class WeatherApplication {
 		{
 			System.out.println(location.name);
 		}
+
+
 
 
 
